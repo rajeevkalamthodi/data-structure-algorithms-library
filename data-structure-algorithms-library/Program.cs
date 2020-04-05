@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using PriorityQuue;
 
 namespace data_structure_algorithms_library
 {
@@ -6,7 +8,8 @@ namespace data_structure_algorithms_library
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PriorityQueueTest priorityQueueTest = new PriorityQueueTest();
+            priorityQueueTest.Test();
         }
     }
 }

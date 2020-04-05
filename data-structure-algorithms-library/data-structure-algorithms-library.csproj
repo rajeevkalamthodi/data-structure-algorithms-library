@@ -6,4 +6,8 @@
     <RootNamespace>data_structure_algorithms_library</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PriorityQuue\PriorityQuue.csproj" />
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+  </ItemGroup>
 </Project>
